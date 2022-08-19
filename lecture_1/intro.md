@@ -59,7 +59,24 @@ Jupyter/JupyterLab - это удобная интерактивная среда
     - [Синтаксис по LaTex](https://ru.overleaf.com/learn)
 
 - Вы можете использовать разные элементы из html прямо в ноутбуке, к примеру alert-box для выделения комментариев цветом
+```html
+<div class="alert alert-block alert-info">
+<b>Tip:</b> Use blue boxes (alert-info) for tips and notes. 
+If it’s a note, you don’t have to include the word “Note”.
+</div>
 
+<div class="alert alert-block alert-warning">
+<b>Example:</b> Yellow Boxes are generally used to include additional examples or mathematical formulas.
+</div>
+
+<div class="alert alert-block alert-success">
+Use green box only when necessary like to display links to related content.
+</div>
+
+<div class="alert alert-block alert-danger">
+It is good to avoid red boxes but can be used to alert users to not delete some important part of code etc. 
+</div>   
+```
 <div class="alert alert-block alert-info">
 <b>Tip:</b> Use blue boxes (alert-info) for tips and notes. 
 If it’s a note, you don’t have to include the word “Note”.

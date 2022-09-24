@@ -19,5 +19,6 @@
 | N  | Семинар  | ДЗ  | Срок  |
 |---|---|---|---|
 | 1 | [Вводный семинар](lecture_1/intro.md)  |   |   |   |
-| 2  |   |   |   |   |
-| 3  |   |   |   |   |
+| 2  | [Типы данных](lecture_2/data_structures.ipynb) |   |   |   |
+| 3  | [JSON](lecture_2/json.ipynb)  |   |   |   |
+| 4  | [Морфология](lecture_3/morphology.ipynb)  | [ДЗ]() |   |   |

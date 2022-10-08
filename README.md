@@ -23,8 +23,8 @@
 |    3  | [JSON](lecture_2/json.ipynb)  |   |   |   |
 |    4  | [Морфология](lecture_3/morphology.ipynb)  | [ДЗ](homework/homework_1.md) | 08.10.22  |   |
 |    4	| Синтаксис | | | |	 	 	 
-|    5	| Pandas | | | | 	 	 	 	 
-|    6	| Визуализация | | | | 	 	 	 	 
+|    5	| [Pandas](lecture_5/pandas.ipynb) | | | | 	 	 	 	 
+|    6	| [Визуализация](lecture_6/visualization.ipynb) | | | | 	 	 	 	 
 |    7	| Семантические модели | ДЗ2 | | 	 	 	 
 |    8 | TF-IDF | | | |	 	 	 	 
 |    9	| Базы данных - 1 | | | |	 	 	 	 

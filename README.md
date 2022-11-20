@@ -21,16 +21,16 @@
 |    1 | [Вводный семинар](lecture_1/intro.md)  |   |   |   |
 |    2  | [Типы данных](lecture_2/data_structures.ipynb) |   |   |   |
 |    3  | [JSON](lecture_2/json.ipynb)  |   |   |   |
-|    4  | [Морфология](lecture_3/morphology.ipynb)  | [ДЗ](homework/homework_1.md) | 08.10.22  |   |
+|    4  | [Морфология](lecture_3/morphology.ipynb)  | [ДЗ(1)](homework/homework_1.md) | 08.10.22  |   |
 |    4	| [Pandas](lecture_5/pandas.ipynb) | | | |	 	 	 
 |    5	| [Визуализация](lecture_6/visualization.ipynb)  | | | | 	 	 	 	 
 |    6	| [Синтаксис](lecture_5/Syntax.ipynb) | | | | 	 	 	 	 
-|    7	| Семантические модели | ДЗ2 | | 	 	 	 
-|    8 | TF-IDF | | | |	 	 	 	 
-|    9	| Базы данных - 1 | | | |	 	 	 	 
-|    10 | Базы данных - 2 | ДЗ3 | | |	 	 	 
-|    11 | Requests | | | | 	 	 	 	 
-|    12 | Краулеры	| ДЗ4 | | |	 	 	 
+|    7	| [Семантические модели](lecture_7/Embeddings.ipynb) | [ДЗ(2)](homework/homework_2.md)| | 	 	 	 
+|    8 | [TF-IDF](lecture_8/TF-IDF.ipynb) | | | |	 	 	 	 
+|    9 | [Базы данных - 1](lecture_9_10/databases_1.ipynb) | | | |	 	 	 	 
+|    10 | [Базы данных - 2](lecture_9_10/databases_2.ipynb) | [ДЗ(3)](homework/homework_3.md) | | |	 	 	 
+|    11 | [Requests](lecture_11/requests.ipynb) | | | | 	 	 	 	 
+|    12 | [Краулеры](lecture_11/crawlers.ipynb)	| ДЗ(4) | | |	 	 	 
 |    13 | Flask - 1 | | | |	 	 	 	 
 |    14 | Flask - 2 | | | |	 	 	 	 
 |    15 | Flask - 3 | | | | 	 	 	 

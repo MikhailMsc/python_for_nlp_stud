@@ -59,23 +59,23 @@ def main():
 #     return render_template('opros.html')
 
 
-@app.route('/anketa', methods=['POST', 'GET'])
-def opros():
-    form = SurveyForm()
-    if form.validate_on_submit():
-        # print('Has DATA')
-        new_anketa = Anketa(
-            username=form.username.data,
-            email=form.email.data,
-            age=form.age.data,
-            education=form.education.data,
-            languages=', '.join(form.languages.data),
-            comment=form.comment.data
-        )
-        db.session.add(new_anketa)
-        db.session.commit()
-        return redirect('/')
-    return render_template('opros2.html', form=form)
+# @app.route('/anketa', methods=['POST', 'GET'])
+# def opros():
+#     form = SurveyForm()
+#     if form.validate_on_submit():
+#         # print('Has DATA')
+#         new_anketa = Anketa(
+#             username=form.username.data,
+#             email=form.email.data,
+#             age=form.age.data,
+#             education=form.education.data,
+#             languages=', '.join(form.languages.data),
+#             comment=form.comment.data
+#         )
+#         db.session.add(new_anketa)
+#         db.session.commit()
+#         return redirect('/')
+#     return render_template('opros2.html', form=form)
 
 # @app.route('/result')
 # def result():
@@ -83,20 +83,20 @@ def opros():
 #     return render_template('result.html', rows=all_ankets)
 
 
-@app.route('/result')
-def result():
-    all_ankets = Anketa.query.all()
-    all_ankets = [(v.username, v.email, v.age, v.education, v.languages, v.comment)
-                  for v in all_ankets]
-    all_ankets = pd.DataFrame(all_ankets,
-                              columns=['Имя', 'Email', 'Возраст', 'Образование',
-                                       'Языки программирования', 'Комментарий']
-                              )
-    all_ankets = pretty_html_table.build_table(all_ankets, 'blue_light')
-    # return render_template('result2.html', html_table=all_ankets)
-
-    with open('flask_app/templates/result2.html', 'r') as f:
-        html_code = f.read()
-    html_code = html_code.replace('{{ html_table }}', all_ankets)
-    return html_code
+# @app.route('/result')
+# def result():
+#     all_ankets = Anketa.query.all()
+#     all_ankets = [(v.username, v.email, v.age, v.education, v.languages, v.comment)
+#                   for v in all_ankets]
+#     all_ankets = pd.DataFrame(all_ankets,
+#                               columns=['Имя', 'Email', 'Возраст', 'Образование',
+#                                        'Языки программирования', 'Комментарий']
+#                               )
+#     all_ankets = pretty_html_table.build_table(all_ankets, 'blue_light')
+#     # return render_template('result2.html', html_table=all_ankets)
+#
+#     with open('flask_app/templates/result2.html', 'r') as f:
+#         html_code = f.read()
+#     html_code = html_code.replace('{{ html_table }}', all_ankets)
+#     return html_code
 

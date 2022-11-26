@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>
+        Опрос
+    </title>
+
+    <style>
+
+        /* Styling the Body element i.e. Color,
+        Font, Alignment */
+        body {
+            background-color: #05c46b;
+            font-family: Verdana;
+            text-align: center;
+        }
+
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+
+        /* Styling Button */
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ответьте честно на следующие опросы:</h1>
+
+    <!-- Create Form -->
+    <form id="form" action="" method="post">
+        {{ form.hidden_tag() }}
+        <div class="form-control">
+            <label for="name" id="label-name">
+                {{ form.username.label }}
+            </label>
+            {{ form.username(size=32) }}
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">
+                {{ form.email.label }}
+            </label>
+            {{ form.email() }}
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">
+                {{ form.age.label }}
+            </label>
+             {{ form.age() }}
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                {{ form.education.label }}
+            </label>
+                {{ form.education() }}
+        </div>
+
+        <div class="form-control">
+            <label>{{ form.languages.label }}</label>
+            {{ form.languages() }}
+        </div>
+        <div class="form-control">
+            <label for="comment">
+                {{ form.comment.label }}
+            </label>
+                {{ form.comment() }}
+        </div>
+        <!-- Multi-line Text Input Control -->
+        {{ form.submit() }}
+    </form>
+    <a href="/"><button>На главную страницу</button></a>
+</body>
+
+</html>

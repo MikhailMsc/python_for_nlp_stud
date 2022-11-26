@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>
+        Опрос
+    </title>
+
+    <style>
+
+        /* Styling the Body element i.e. Color,
+        Font, Alignment */
+        body {
+            background-color: #05c46b;
+            font-family: Verdana;
+            text-align: center;
+        }
+
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+
+        /* Styling Button */
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ответьте честно на следующие опросы:</h1>
+
+    <!-- Create Form -->
+    <form id="form" action="/">
+
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Имя
+            </label>
+
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Введите ваше имя" />
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"
+                   placeholder="Введите вашу почту" />
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Возраст
+            </label>
+
+            <!-- Input Type Text -->
+            <input type="number"
+                   id="age"
+                   placeholder="Введите ваш возраст" />
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Ваше образование
+            </label>
+
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="kindergarten">детский сад</option>
+                <option value="school_9">9 классов школы</option>
+                <option value="school_11">11 классов школы</option>
+                <option value="college">среднее специальное</option>
+                <option value="student">неоконченное высшее</option>
+                <option value="bachelor">бакалавриат/специалитет</option>
+                <option value="master">магистратура</option>
+                <option value="phd">аспирантура</option>
+                <option value="candidate">кандидат наук</option>
+                <option value="doctor">доктор наук</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>Какие языки программирования вы знаете?
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">C</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">C++</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">R</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Java</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Python</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">JavaScript</input></label>
+        </div>
+        <div class="form-control">
+            <label for="comment">
+                Ваши комментарии к опросу:
+            </label>
+
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Ждем от вас коммента">
+            </textarea>
+        </div>
+        <!-- Multi-line Text Input Control -->
+        <input type="submit" value="Сохранить"/>
+    </form>
+    <a href="/"><button>На главную страницу</button></a>
+</body>
+
+</html>

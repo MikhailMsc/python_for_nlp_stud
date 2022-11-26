@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты</title>
+</head>
+<body>
+    <h1>Результаты опроса:</h1>
+    <table>
+          <tr>
+              <th>Имя</th>
+              <th>Email</th>
+              <th>Возраст</th>
+              <th>Образование</th>
+              <th>Языки программирования</th>
+              <th>Комментарий</th>
+          </tr>
+          {% for row in rows %}
+          <tr>
+              <th>{{ row.username }}</th>
+              <th>{{ row.email }}</th>
+              <th>{{ row.age }}</th>
+              <th>{{ row.education }}</th>
+              <th>{{ row.languages }}</th>
+              <th>{{ row.comment }}</th>
+          </tr>
+          {% endfor %}
+    </table>
+    <a href="/"><button>На главную страницу</button></a>
+</body>
+</html>

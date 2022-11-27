@@ -1,6 +1,6 @@
 from flask_wtf import FlaskForm
 from wtforms import (
-    widgets, StringField, PasswordField, BooleanField, SubmitField, EmailField,
+    widgets, StringField, SubmitField, EmailField,
     IntegerField, SelectField, SelectMultipleField, TextAreaField
 )
 from wtforms.validators import DataRequired
@@ -15,7 +15,6 @@ class SurveyForm(FlaskForm):
     username = StringField('Имя', validators=[DataRequired()])
     email = EmailField('Email', validators=[DataRequired()])
     age = IntegerField('Возраст', validators=[DataRequired()])
-    email = StringField('Email', validators=[DataRequired()])
     education = SelectField('Ваше образование',
                             choices=[('детский сад', 'детский сад'), ('9 классов школы', '9 классов школы'),
                                      ('11 классов школы', '11 классов школы'),

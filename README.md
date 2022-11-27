@@ -30,7 +30,7 @@
 |    9 | [Базы данных - 1](lecture_9_10/databases_1.ipynb) | | | |	 	 	 	 
 |    10 | [Базы данных - 2](lecture_9_10/databases_2.ipynb) | [ДЗ(3)](homework/homework_3.md) | |	 	 	 
 |    11 | [Requests](lecture_11_12/requests.ipynb) | | |	 	 	 	 
-|    12 | [Краулеры](lecture_11_12/crawlers.ipynb)	| ДЗ(4) | |	 	 	 
+|    12 | [Краулеры](lecture_11_12/crawlers.ipynb)	| [ДЗ(4)](homework/homework_4.md)| |	 	 	 
 |    13 | Flask - 1 | | |	 	 	 
 |    14 | Flask - 2 | | | 	 	 	 
 |    15 | Flask - 3 | | | 	 	 	 

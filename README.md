@@ -24,17 +24,17 @@
 |    4  | [Морфология](lecture_3/morphology.ipynb)  | [ДЗ(1)](homework/homework_1.md) | 08.10.22 |
 |    4	| [Pandas](lecture_5/pandas.ipynb) | | | |	 	 	 
 |    5	| [Визуализация](lecture_6/visualization.ipynb)  | | | | 	 	 	 	 
-|    6	| [Синтаксис](lecture_5/Syntax.ipynb) | | | | 	 	 	 	 
+|    6	| [Синтаксис](lecture_4/Syntax.ipynb) | | | | 	 	 	 	 
 |    7	| [Семантические модели](lecture_7/Embeddings.ipynb) | [ДЗ(2)](homework/homework_2.md)| 22.11.22 | 	 	 	 
 |    8 | [TF-IDF](lecture_8/TF-IDF.ipynb) | | | |	 	 	 	 
 |    9 | [Базы данных - 1](lecture_9_10/databases_1.ipynb) | | | |	 	 	 	 
 |    10 | [Базы данных - 2](lecture_9_10/databases_2.ipynb) | [ДЗ(3)](homework/homework_3.md) | |	 	 	 
 |    11 | [Requests](lecture_11_12/requests.ipynb) | | |	 	 	 	 
-|    12 | [Краулеры](lecture_11_12/crawlers.ipynb)	| [ДЗ(4)](homework/homework_4.md)| |	 	 	 
+|    12 | [Краулеры](lecture_11_12/crawlers.ipynb)	| [ДЗ(4)](homework/homework_4.md)| 15.12.22 |	 	 	 
 |    13 | Flask - 1 | | |	 	 	 
 |    14 | Flask - 2 | | | 	 	 	 
 |    15 | Flask - 3 | | | 	 	 	 
-|    16 | Docker |	[ДЗ(5)](homework/homework_5.md) | | 	 	 	 
+|    16 | Docker |	[ДЗ(5)](homework/homework_5.md) | 22.12.22 | 	 	 	 
 |    17 | Разные инструменты | | |	 	 	 	 
 |    18 - 19 | Контрольная | | |	 	 	 	 
 |    20 | API | | | 	 	 	 

@@ -35,7 +35,7 @@
 |    14 | Flask - 2 | | | 	 	 	 
 |    15 | Flask - 3 | | | 	 	 	 
 |    16 | Docker |	[ДЗ(5)](homework/homework_5.md) | 22.12.22 | 	 	 	 
-|    17 | [Разные инструменты](lecture_17_18) | | |	 	 	 	 
+|    17 | [Разные инструменты](lecture_17_18/) | | |	 	 	 	 
 |    18 - 19 | [Контрольная](homework/Kontrolnaya_Instruction.md) | | |	 	 	 	 
 |    20 | API | | | 	 	 	 
 |    21	| VK API | | |	 	 	 	 
